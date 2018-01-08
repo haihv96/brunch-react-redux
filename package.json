@@ -48,7 +48,6 @@
     "eslint-plugin-react": "^7.5.1",
     "identity-obj-proxy": "^3.0.0",
     "javascript-brunch": "^2.10.0",
-    "postcss-brunch": "^2.1.0",
     "react-styleguidist": "^6.1.0",
     "sass-brunch": "^2.10.4",
     "uglify-js-brunch": "^2.10.0"
