@@ -1,7 +1,13 @@
-import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux';
+import App from './containers/App';
+import store from './configureStore';
 
+const RENDER_NODE = document.getElementById('app')
 const Initialize = () => (
-  <div>abc</div>
+  <Provider store={store}>
+    <App />
+  </Provider>
 )
 
-export default Initialize
+render(<Initialize />, RENDER_NODE)

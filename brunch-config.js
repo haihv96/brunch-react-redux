@@ -1,3 +1,10 @@
+exports.npm = {
+  globals: {
+    React: 'react',
+    PropTypes: 'prop-types'
+  }
+}
+
 exports.files = {
   javascripts: {
     joinTo: 'app.js'
@@ -5,13 +12,13 @@ exports.files = {
   stylesheets: {
     joinTo: 'app.css'
   }
-};
+}
 
 exports.modules = {
   autoRequire: {
     'app.js': ['initialize']
   }
-};
+}
 
 exports.plugins = {
   babel: {
@@ -31,4 +38,4 @@ exports.plugins = {
       ]
     }
   }
-};
+}
